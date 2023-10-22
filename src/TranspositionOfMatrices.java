@@ -11,7 +11,6 @@ public class TranspositionOfMatrices {
         int scanSizeN = scanner.nextInt();
         System.out.println("_____________________");
 
-
         int[][] matrix1 = new int[scanSizeM][scanSizeN];
         int[][] matrix2 = new int[scanSizeN][scanSizeM];
         for (int i = 0; i < matrix1.length; i++) {
@@ -21,7 +20,6 @@ public class TranspositionOfMatrices {
             }
         }
         System.out.println("Матриця розміром M×N:");
-
         {
             int i = 0;
             while (i < matrix1.length) {
@@ -32,7 +30,6 @@ public class TranspositionOfMatrices {
                 i++;
             }
         }
-
         System.out.println();
 
         System.out.println("Матриця розміром N×M:");
